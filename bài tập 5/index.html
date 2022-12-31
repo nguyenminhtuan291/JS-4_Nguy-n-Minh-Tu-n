@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="mx-auto text-center">Bài 5</h1>
+    <div class="container5 mx-5">
+      <input
+        class="form-control col-sm-4 mx-auto text-center"
+        type="date"
+        name=""
+        id="today"
+        placeholder="mm-dd-yyyy"
+      />
+      <br>
+      <div class="row">
+        <div class="text-right col-sm-6 mx-auto">
+          <button class="btn btn-primary" id="daybefore">ngày hôm trước</button>
+        </div>
+        <div class="col-sm-6 mx-auto">
+          <button class="btn btn-primary" id="dayafter">ngày hôm sau</button>
+        </div>
+        <br>
+        <div
+          style="display: none"
+          id="result5-wrapper"
+          class="text-center col-sm-12 mx-auto"
+        >
+          <p id="result5"></p>
+        </div>
+      </div>
+    </div> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./index.js"></script>
+  </body>
+</html>
